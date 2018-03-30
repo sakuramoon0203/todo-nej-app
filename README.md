@@ -6,8 +6,8 @@
 <p>mac下载安装mongodb可参考https://www.jianshu.com/p/2d0a1ecd0c82</p>
 
 ## Installation 
-1. 下载代码: git clone https://github.com/xiaoxielnino/todoNej 
+1. 下载代码: git clone https://github.com/sakuramoon0203/todo-nej-app 
 2. 进入项目目录，运行 npm install 
-3. 修改configs/db.js的mongodb地址
+3. 修改configs/db.js的mongodb地址为本地地址
 4. 启动服务，运行 npm start 
-5. 在浏览器打开http://localhost:3000页面查看todo应用
+5. 在浏览器打开 http://localhost:3000 页面查看todo应用
