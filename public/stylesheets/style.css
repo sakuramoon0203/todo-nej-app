@@ -1,0 +1,111 @@
+.todoapp {
+    font-size: 24px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+#header .title {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 50;
+    text-align: center;
+    color: rgb(255, 117, 117);
+    padding-top: 40px;
+}
+
+.btn {
+    background: grey;
+    font-size: 22px;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#todo-list li .toggle {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#todo-list li:hover .delete {
+    display: block;
+}
+
+#todo-list li .delete:hover {
+    color: #af5b5e;
+}
+
+#todo-list li .delete {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    font-size: 30px;
+    color: #cc9a9a;
+    margin-bottom: 11px;
+    transition: color 0.2s ease-out;
+}
+
+#todo-list li .delete:after {
+    content: '×';
+}
+
+#footer {
+    font-size: 14px;
+    color: #777;
+    padding: 10px 15px;
+    height: 36px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+.filters {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.filters li {
+    display: inline;
+    font-size: 14px;
+}
+
+.filters li a {
+    color: inherit;
+    margin: 3px;
+    padding: 3px 7px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.filters li a:hover {
+    border-color: rgba(175, 47, 47, 0.2);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.filters li a.selected {
+    border-color: rgba(175, 47, 47, 0.2);
+}
+
+.info {
+    margin: 65px auto 0;
+    color: #bfbfbf;
+    font-size: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
